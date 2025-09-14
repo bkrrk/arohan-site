@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Navigation Bar -->
+<nav style="background-color: #0a1a2f; padding: 15px;">
+  <div style="max-width: 1000px; margin: auto; display: flex; justify-content: space-between; align-items: center;">
+    <a href="index.html" style="color: #fff; font-weight: bold; font-size: 20px;">AROHAN</a>
+    <button onclick="toggleMenu()" style="background: none; border: none; color: #fff; font-size: 24px;">☰</button>
+  </div>
+  <div id="menu" style="display: none; text-align: center; margin-top: 10px;">
+    <a href="about.html" style="color: #fff; display: block; margin: 10px;">About</a>
+    <a href="portfolio.html" style="color: #fff; display: block; margin: 10px;">Portfolio</a>
+    <a href="blog.html" style="color: #fff; display: block; margin: 10px;">Blog</a>
+    <a href="contact.html" style="color: #fff; display: block; margin: 10px;">Contact</a>
+  </div>
+</nav>
+
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById('menu');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  }
+</script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+</head>
+<body>
+<section id="portfolio" style="padding: 60px; background-color: #ffffff; color: #0a1a2f; font-family: 'Segoe UI', sans-serif;">
+  <div style="max-width: 1000px; margin: auto;">
+    <h2 style="text-align: center; font-size: 36px; margin-bottom: 40px;">Portfolio</h2>
+
+    <!-- Project 1 -->
+    <div style="margin-bottom: 40px;">
+      <h3 style="font-size: 24px;">Agentic AI-Based Copilot Framework</h3>
+      <p style="font-size: 18px; line-height: 1.6;">
+        Designed and deployed a proprietary Copilot framework integrating agentic AI with enterprise workflows. Delivered intelligent automation across financial auditing and IoT domains, reducing manual effort by 40+ hours per cycle.
+      </p>
+      <ul style="font-size: 18px; line-height: 1.6;">
+        <li>Built using Azure OpenAI, Logic Apps, and Power Automate</li>
+        <li>Adopted across multiple programs for decision support and governance</li>
+        <li>Includes dashboard visualizations and prompt engineering templates</li>
+      </ul>
+    </div>
+
+    <!-- Project 2 -->
+    <div style="margin-bottom: 40px;">
+      <h3 style="font-size: 24px;">Cloud Governance Accelerator</h3>
+      <p style="font-size: 18px; line-height: 1.6;">
+        Architected a scalable governance framework for Azure environments, enabling policy enforcement, cost control, and compliance tracking across multi-subscription landscapes.
+      </p>
+      <ul style="font-size: 18px; line-height: 1.6;">
+        <li>Terraform + Bicep templates for policy-as-code</li>
+        <li>Integrated with Azure Policy, Defender, and Cost Management</li>
+        <li>Used by cross-functional teams to align IT with business priorities</li>
+      </ul>
+    </div>
+
+    <!-- Project 3 -->
+    <div style="margin-bottom: 40px;">
+      <h3 style="font-size: 24px;">Certification Tracker & Learning Dashboard</h3>
+      <p style="font-size: 18px; line-height: 1.6;">
+        Created a Notion-based dashboard to track progress across Azure, TOGAF, PMP, and CyberSecurity certifications. Includes embedded mind maps, study plans, and daily learning routines.
+      </p>
+      <ul style="font-size: 18px; line-height: 1.6;">
+        <li>Live tracker with color-coded milestones and resource links</li>
+        <li>Integrated journaling and reflection prompts</li>
+        <li>Used for mentoring and team enablement</li>
+      </ul>
+    </div>
+
+    <!-- Project 4 -->
+    <div style="margin-bottom: 40px;">
+      <h3 style="font-size: 24px;">IoT + Automotive Data Integration Platform</h3>
+      <p style="font-size: 18px; line-height: 1.6;">
+        Led the design of a data ingestion and analytics platform for automotive sensor data, enabling predictive maintenance and real-time insights.
+      </p>
+      <ul style="font-size: 18px; line-height: 1.6;">
+        <li>Azure IoT Hub, Stream Analytics, and Power BI</li>
+        <li>Delivered 35% faster go-to-market for OEM partners</li>
+        <li>Includes role-based dashboards and alerting workflows</li>
+      </ul>
+    </div>
+
+    <p style="text-align: center; font-size: 18px; margin-top: 60px;">
+      Want to explore more? Visit my <a href="#blog" style="color: #0a84ff;">Blog</a> or <a href="#contact" style="color: #0a84ff;">Contact</a> page to collaborate.
+    </p>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,84 @@
+/* styles.css */
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+  color: #0a1a2f;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #0a1a2f;
+  margin-bottom: 20px;
+}
+
+/* Links */
+a {
+  color: #0a84ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button, .cta-button {
+  background-color: #0a84ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover, .cta-button:hover {
+  background-color: #084c9e;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+}
+
+/* Tags */
+.tag {
+  display: inline-block;
+  background-color: #0a84ff;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-right: 6px;
+}
+
+/* Blog Cards */
+.blog-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+.watermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.05;
+  z-index: 0;
+  width: 600px;
+  max-width: 90%;
+  pointer-events: none;
+}

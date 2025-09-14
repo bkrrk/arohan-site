@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me – Arohan</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav style="background-color: #0a1a2f; padding: 15px;">
+  <div style="max-width: 1000px; margin: auto; display: flex; justify-content: space-between; align-items: center;">
+    <a href="index.html" style="color: #fff; font-weight: bold; font-size: 20px;">AROHAN</a>
+    <button onclick="toggleMenu()" style="background: none; border: none; color: #fff; font-size: 24px;">☰</button>
+  </div>
+  <div id="menu" style="display: none; text-align: center; margin-top: 10px;">
+    <a href="about.html" style="color: #fff; display: block; margin: 10px;">About</a>
+    <a href="portfolio.html" style="color: #fff; display: block; margin: 10px;">Portfolio</a>
+    <a href="blog.html" style="color: #fff; display: block; margin: 10px;">Blog</a>
+    <a href="contact.html" style="color: #fff; display: block; margin: 10px;">Contact</a>
+  </div>
+</nav>
+
+<!-- Logo Section -->
+<img src="assets/logo.png" alt="Arohan Watermark" class="watermark" />
+
+  <!-- About Section -->
+  <section style="background-color: #ffffff; color: #0a1a2f; padding: 60px 20px;">
+    <div style="position: relative; z-index: 1;">
+      <h2 style="text-align: center; font-size: 36px;">About Me</h2>
+      <p style="font-size: 18px; line-height: 1.6;">
+        I’m <strong>Ravi Kumar Bulusu</strong>, a Senior Technical Consultant and Program Lead with deep expertise in cloud engineering, DevOps, and intelligent automation. I specialize in architecting scalable systems, leading multi-release programs, and driving enterprise transformation across industries—from automotive and healthcare to financial auditing and IoT.
+      </p>
+      <p style="font-size: 18px; line-height: 1.6;">
+        But my journey isn’t just about systems and scale. It’s about <em>clarity</em>, <em>alignment</em>, and <em>awakening</em>—within organizations and within myself. Through spiritual travel, temple tours, and mindful journaling, I’ve discovered that the principles of governance, resilience, and transformation apply as much to the self as they do to systems.
+      </p>
+      <p style="font-size: 18px; line-height: 1.6;">
+        That’s why I created <strong>Arohan</strong>—a personal brand that reflects my dual mission:
+        <blockquote style="margin: 20px 0; font-size: 20px; font-style: italic; text-align: center;">
+          “Architecting Systems. Awakening Self.”
+        </blockquote>
+      </p>
+
+      <h3 style="margin-top: 40px; font-size: 28px;">What I Do</h3>
+      <ul style="font-size: 18px; line-height: 1.6;">
+        <li>Architect cloud-native solutions on Azure using Terraform, Bicep, and CI/CD frameworks</li>
+        <li>Lead cross-functional teams to deliver measurable business impact</li>
+        <li>Design intelligent automation frameworks and agentic AI solutions</li>
+        <li>Build dashboards, trackers, and mind maps for continuous improvement</li>
+      </ul>
+
+      <h3 style="margin-top: 40px; font-size: 28px;">What’s Next</h3>
+      <p style="font-size: 18px; line-height: 1.6;">
+        I’m actively shaping my path toward <strong>Enterprise Architect</strong> and <strong>Program Manager</strong> roles. My current goals include:
+      </p>
+      <ul style="font-size: 18px; line-height: 1.6;">
+        <li>Achieving TOGAF, AZ-104, and AZ-305 certifications</li>
+        <li>Building capstone projects that showcase business-aligned architecture</li>
+        <li>Creating Notion and OneNote dashboards to track progress and share insights</li>
+      </ul>
+
+      <h3 style="margin-top: 40px; font-size: 28px;">Let’s Connect</h3>
+      <p style="font-size: 18px; line-height: 1.6;">
+        Whether you're exploring cloud transformation, intelligent automation, or simply seeking clarity in complexity—I’d love to collaborate. Reach out via the <a href="contact.html" style="color: #0a84ff;">Contact</a> page or connect with me on <a href="https://www.linkedin.com/in/ravikumarbulusu" target="_blank" style="color: #0a84ff;">LinkedIn</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background-color: #0a1a2f; color: #fff; text-align: center; padding: 30px;">
+    <p>&copy; 2025 Ravi Kumar Bulusu · Arohan</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+
+</body>
+</html>

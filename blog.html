@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- Navigation Bar -->
+<nav style="background-color: #0a1a2f; padding: 15px;">
+  <div style="max-width: 1000px; margin: auto; display: flex; justify-content: space-between; align-items: center;">
+    <a href="index.html" style="color: #fff; font-weight: bold; font-size: 20px;">AROHAN</a>
+    <button onclick="toggleMenu()" style="background: none; border: none; color: #fff; font-size: 24px;">☰</button>
+  </div>
+  <div id="menu" style="display: none; text-align: center; margin-top: 10px;">
+    <a href="about.html" style="color: #fff; display: block; margin: 10px;">About</a>
+    <a href="portfolio.html" style="color: #fff; display: block; margin: 10px;">Portfolio</a>
+    <a href="blog.html" style="color: #fff; display: block; margin: 10px;">Blog</a>
+    <a href="contact.html" style="color: #fff; display: block; margin: 10px;">Contact</a>
+  </div>
+</nav>
+
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById('menu');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  }
+</script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+</head>
+<body>
+  <!-- Hero Section -->
+<section style="background-color: #0a1a2f; color: #fff; text-align: center; padding: 1px 2px;">
+    <img src="assets/logo.png" alt="Arohan Logo" style="width: 160px; margin-bottom: 10px;" />
+</section>
+
+<section id="blog" style="padding: 60px; background-color: #f5f7fa; color: #0a1a2f; font-family: 'Segoe UI', sans-serif;">
+  <div style="max-width: 1000px; margin: auto;">
+    <h2 style="text-align: center; font-size: 36px; margin-bottom: 40px;">Blog</h2>
+    <p style="text-align: center; font-size: 18px; margin-bottom: 60px;">
+      Reflections from the cloud and the soul. Explore my thoughts on enterprise architecture, intelligent automation, and the spiritual clarity that guides my leadership journey.
+    </p>
+
+    <!-- Blog Post 1 -->
+    <div style="margin-bottom: 40px;">
+      <h3 style="font-size: 24px;">Temple to Terraform: Lessons from Sacred Architecture</h3>
+      <p style="font-size: 18px; line-height: 1.6;">
+        What do ancient temples and modern cloud systems have in common? Both require structure, intention, and alignment. In this post, I explore how spiritual design principles can inform enterprise governance and cloud architecture.
+      </p>
+      <a href="#" style="color: #0a84ff;">Read more →</a>
+    </div>
+
+    <!-- Blog Post 2 -->
+    <div style="margin-bottom: 40px;">
+      <h3 style="font-size: 24px;">Code & Karma: Automating with Awareness</h3>
+      <p style="font-size: 18px; line-height: 1.6;">
+        Automation isn’t just about efficiency—it’s about liberation. Drawing parallels between DevOps pipelines and karmic cycles, I share how mindful automation can transform both systems and teams.
+      </p>
+      <a href="#" style="color: #0a84ff;">Read more →</a>
+    </div>
+
+    <!-- Blog Post 3 -->
+    <div style="margin-bottom: 40px;">
+      <h3 style="font-size: 24px;">Architect Reflections: Leading with Clarity</h3>
+      <p style="font-size: 18px; line-height: 1.6;">
+        Leadership isn’t just about decisions—it’s about discernment. In this reflection, I share stories from cross-functional programs, stakeholder alignment, and the inner clarity that shaped my outcomes.
+      </p>
+      <a href="#" style="color: #0a84ff;">Read more →</a>
+    </div>
+
+    <p style="text-align: center; font-size: 18px; margin-top: 60px;">
+      Want to receive updates? Subscribe or connect via <a href="#contact" style="color: #0a84ff;">Contact</a>.
+    </p>
+  </div>
+</section>
+</body>
+</html> 
